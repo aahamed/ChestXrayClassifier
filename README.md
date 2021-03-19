@@ -1,5 +1,7 @@
 # Chest-XRay Multilabel Classification
 
+* This is a copy of the code from the original repository which is private.
+* The commit history of the original repo is saved in commit_history.txt.
 * Multilabel classification of thoracic diseases using the Chest X-Ray 14 dataset provided by NIH
 * Dataset paper: https://nihcc.app.box.com/v/ChestXray-NIHCC 
 
