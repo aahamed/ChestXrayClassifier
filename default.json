@@ -1,0 +1,20 @@
+{
+  "experiment_name": "default_experiment",
+  "dataset": {
+    "labels_path": "./data/labels.csv",
+    "data_split": "./data/balanced",
+    "images_root_dir": "/datasets/ChestXray-NIHCC/images/",
+    "img_size": 256,
+    "batch_size": 64,
+    "num_workers": 8
+  },
+  "experiment": {
+    "num_epochs": 20,
+    "learning_rate": 1e-5,
+    "weight_decay": 1e-4
+  },
+  "model": {
+    "model_type": "resnet50",
+    "mode" : "feature-extract"
+  }
+}

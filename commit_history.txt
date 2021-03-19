@@ -1,0 +1,220 @@
+commit ae1e232ae8a4f1a3d75a8706cd51243b6cbb4c09
+Merge: 0d5c005 bb2fac8
+Author: aadil <aadil.ahamed@gmail.com>
+Date:   Thu Mar 18 18:53:41 2021 -0700
+
+    Merge branch 'main' of github.com:aahamed/cse251b into main
+
+commit 0d5c0057d8a85b646d7cf5da5d0349c0e723d9c8
+Author: aadil <aadil.ahamed@gmail.com>
+Date:   Thu Mar 18 18:51:43 2021 -0700
+
+    Add code to generate disease grid to viz.ipynb
+
+commit bb2fac8ba254481c77b056362af75a9d8119f831
+Author: Dhiren Lad <dlad@eng.ucsd.edu>
+Date:   Thu Mar 18 14:32:16 2021 -0700
+
+    Add code to log and restore AUC values
+
+commit e1f114c2a38936e4f74bf97b669e241ee9431926
+Author: aadil <aadil.ahamed@gmail.com>
+Date:   Wed Mar 17 23:48:38 2021 -0700
+
+    Add notes on data in README
+
+commit 69c568a5fa4a25cc0358af583860e51670246a53
+Author: aadil <aadil.ahamed@gmail.com>
+Date:   Wed Mar 17 23:34:59 2021 -0700
+
+    Update README
+    update gitignore
+
+commit 06adc86407167e2eee652cb4a96b294313f07311
+Author: GringoBandito <brandonmonox@gmail.com>
+Date:   Sun Mar 14 15:22:12 2021 -0700
+
+    Update models_all.py
+    
+    changed BrandNet
+
+commit fee42b769925fed813c646bec0ab16c1c57e2b93
+Author: GringoBandito <brandonmonox@gmail.com>
+Date:   Sun Mar 14 00:02:02 2021 -0800
+
+    Add files via upload
+
+commit 1ec29f48ecf2924afac926c0a3f71d03f4741415
+Author: Dhiren Lad <dlad@eng.ucsd.edu>
+Date:   Thu Mar 11 13:44:06 2021 -0800
+
+    Plot mean AUC for each epoch
+
+commit af135dbc92838d08feab9c8a28c6ce785074c5af
+Author: Dhiren Lad <dlad@eng.ucsd.edu>
+Date:   Thu Mar 11 13:09:36 2021 -0800
+
+    Normalize loss to per-label rather than per-minibatch
+
+commit 2eacec78321491d95874f888b6e03634285ddae0
+Author: Dhiren Lad <dlad@eng.ucsd.edu>
+Date:   Thu Mar 11 13:04:47 2021 -0800
+
+    Automatically calculate linear layer input size
+
+commit 635f4e0f806e6945053cb5c4cf8b547cfad80f97
+Author: Dhiren Lad <dlad@eng.ucsd.edu>
+Date:   Wed Mar 10 23:32:29 2021 -0800
+
+    Close figures to save memory
+
+commit cff068773f8009546f965f23c02dcb98fd12a13e
+Author: Dhiren Lad <dlad@eng.ucsd.edu>
+Date:   Wed Mar 10 00:13:16 2021 -0800
+
+    Bugfix to loss for plots and add AUC to train and val
+
+commit b4cd320b59fa762f23b4683d70c379492bc2a8b6
+Author: aadil <aadil.ahamed@gmail.com>
+Date:   Tue Mar 9 00:41:54 2021 -0800
+
+    add mean AUC; minor changes to classifier model
+
+commit 7e14607bb69b1425a17c4722b5ed70d78f39e8ee
+Merge: 7b2e115 00f2ed1
+Author: aadil <aadil.ahamed@gmail.com>
+Date:   Mon Mar 8 21:53:51 2021 -0800
+
+    Merge branch 'main' of github.com:aahamed/cse251b into main
+
+commit 00f2ed103adc47d434437c723e0fef002bba97e4
+Author: GringoBandito <brandonmonox@gmail.com>
+Date:   Mon Mar 8 21:49:43 2021 -0800
+
+    Add files via upload
+
+commit 7b2e1159897e950682a15b85b1dd06a7977865f1
+Author: aadil <aadil.ahamed@gmail.com>
+Date:   Mon Mar 8 15:55:17 2021 -0800
+
+    ignore config json file
+
+commit 0ef681e8051b94deddb42c11edf2d43291283020
+Author: Dhiren Lad <dlad@eng.ucsd.edu>
+Date:   Sun Mar 7 20:05:09 2021 -0800
+
+    Add AUC calculations
+
+commit fac8adf7d422b579f1bf919bf6b802700c1f4e07
+Author: Dhiren Lad <dlad@eng.ucsd.edu>
+Date:   Sun Mar 7 19:59:50 2021 -0800
+
+    Plot ROC curves
+
+commit e14a4b5f33e49db0cdbed581a31c41c191d69bbe
+Author: Dhiren Lad <dlad@eng.ucsd.edu>
+Date:   Sun Mar 7 19:53:53 2021 -0800
+
+    Add pos_weights to train_loss
+
+commit 35edaaa978e28d52828bb5f001420eb1967d5433
+Author: GringoBandito <brandonmonox@gmail.com>
+Date:   Sun Mar 7 14:08:06 2021 -0800
+
+    Add files via upload
+
+commit 121b74deed0533091a7087935b20a4ebb05d6ca8
+Author: Dhiren Lad <dlad@eng.ucsd.edu>
+Date:   Sun Mar 7 12:27:38 2021 -0800
+
+    Fix bug in how pos_weights are calculated
+
+commit 0f36c92e3ae994947983897642fcc7c0987de471
+Author: Dhiren Lad <dlad@eng.ucsd.edu>
+Date:   Sun Mar 7 11:13:59 2021 -0800
+
+    Update weights once per epoch to prevent overfitting
+
+commit cbdbbcc82a44ee2c712edc35cba7ddb912dbf9ac
+Author: Dhiren Lad <dlad@eng.ucsd.edu>
+Date:   Sun Mar 7 00:41:42 2021 -0800
+
+    Fix accumulating gradient error in training and add TP/TN/FP/FN calculations to test
+
+commit 018c950abb0da6dcc7cbe269ac91ba712f89f21e
+Author: aadil <aadil.ahamed@gmail.com>
+Date:   Sat Mar 6 22:31:25 2021 -0800
+
+    add draft of training loop
+
+commit 3ed2e3bd193c7373ce9073af5656e2a0733481ec
+Author: Dhiren Lad <dlad@eng.ucsd.edu>
+Date:   Fri Mar 5 13:15:09 2021 -0800
+
+    Undoing last commit (misunderstood how model_factory was set up)
+
+commit 21aea4270cdc695e08729f09104922a195ea208c
+Author: Dhiren Lad <dlad@eng.ucsd.edu>
+Date:   Fri Mar 5 12:22:45 2021 -0800
+
+    Update model_factory only for ResNet
+
+commit 5aa0cf6d33842af32896f19fb9e803a880ea1d01
+Author: Dhiren Lad <dlad@eng.ucsd.edu>
+Date:   Fri Mar 5 12:14:43 2021 -0800
+
+    Add actual mean/std and reshape images
+
+commit cf8aae194ccce0f313dc7472ff1a27b60c161143
+Author: Dhiren Lad <dlad@eng.ucsd.edu>
+Date:   Fri Mar 5 11:12:50 2021 -0800
+
+    Update dataloader for NIH dataset
+
+commit e342a90ac924419496abaf78650f45970c14c118
+Author: Dhiren Lad <dlad@eng.ucsd.edu>
+Date:   Fri Mar 5 10:41:35 2021 -0800
+
+    Add all data splits
+
+commit d061d0e4451acf7d61fa130cbfcbc8871e30f55b
+Author: Dhiren Lad <dlad@eng.ucsd.edu>
+Date:   Thu Mar 4 18:55:56 2021 -0800
+
+    Add raw split information so we can make our own test/train/val splits
+
+commit 772729bc42b3ee3bc6227c8006c181cf2fe85d5f
+Author: Dhiren Lad <dlad@eng.ucsd.edu>
+Date:   Thu Mar 4 15:55:54 2021 -0800
+
+    Refactoring and getting dataloader to work with new PIL version
+
+commit 156257dcf95c9276932d544b84f1e3eb882693c3
+Author: aadil <aadil.ahamed@gmail.com>
+Date:   Thu Mar 4 02:02:53 2021 -0800
+
+    add draft of resnet chest-xray classifier
+
+commit daa509791b8e36c785f33ec2f9e9f08b4aa7743a
+Author: aadil <aadil.ahamed@gmail.com>
+Date:   Thu Mar 4 00:46:11 2021 -0800
+
+    add notebook for visualizations
+
+commit 81a360f8c5451165232b8d74cf6f3b53880f9e61
+Author: aadil <aadil.ahamed@gmail.com>
+Date:   Wed Mar 3 01:04:58 2021 -0800
+
+    add dataloader for chest-xray
+
+commit 61b0f9a065b4a0247609c0b20e0d7269f833ab5d
+Author: aadil <aadil.ahamed@gmail.com>
+Date:   Tue Mar 2 23:13:02 2021 -0800
+
+    add starter files from PA4
+
+commit 8b4ae38f1ce5cc2017e3f69e9a5cd66bc5bd2e41
+Author: aadil <aadil.ahamed@gmail.com>
+Date:   Tue Mar 2 22:11:11 2021 -0800
+
+    add pa4 report and pa5 proposal
